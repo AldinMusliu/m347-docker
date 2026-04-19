@@ -1,0 +1,15 @@
+# Modul 347 – Docker Notizen
+
+## Was löst Docker?
+Docker löst das Problem "es läuft bei mir, aber nicht bei dir".
+Applikationen laufen in Containern, die überall gleich funktionieren.
+
+## Unterschied VM vs Container
+- VM: Komplettes Betriebssystem wird virtualisiert, sehr ressourcenintensiv
+- Container: Teilt den OS-Kernel, viel leichter und schneller
+
+## Begriffe
+- **Docker Image**: Vorlage/Bauplan für einen Container
+- **Dockerfile**: Textdatei mit Anweisungen zum Erstellen eines Images
+- **Docker Container**: Laufende Instanz eines Images
+- **Docker Registry**: Speicherort für Images (z.B. Docker Hub)
